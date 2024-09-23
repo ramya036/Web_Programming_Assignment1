@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    background-image: url('design.jpg');
+    background-size: cover;
+    color: #5f4503;
+    margin: 0px;
+}
+header {
+    color: black;
+}
+header, .personal-details {
+    text-align: center;
+}
+
+.summary {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.profile-photo {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #b9a88a;
+}
+tr:nth-child(odd) {
+    background-color: #dfdab0;
+}
+.right-sidebar {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 220px;
+    width: 350px;
+    margin-top: 15px;
+}
+.sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #5f4503;
+    text-decoration: none;
+}
+.albums-list {
+    color: #755504;
+    display: flex;
+}
+.album {
+    padding: 5px;
+}
+.album> li {
+    padding-top: 3px;
+}
+a:hover {
+    color: #bc8700;
+}
+.hobbie {
+    padding-top: 10px;
+}
+.quote {
+    
+    border: 2px dashed #5f4503;
+    padding: 10px;
+    margin: 20px 15% 0% 15%;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: #e0d3c0;
+    font-style: italic;
+}
+footer {
+    font-weight: bold;
+    margin-top: 15px; 
+    color: white;
+    background-color: #5f4503;
+}
+.footer {
+    text-align-last: center;
+    padding-top: 20px;
+    color: white;
+}
+.footer>a, .externalLinks li>a {
+    color: white;
+}
+.footer> .college > a:hover {
+    color: #f3baba;
+    font-weight: bold;
+}
+.externalLinks li > a:hover {
+    color: red; 
+    font-weight: bold;
+}
+.contact-details {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    padding: 5px;
+}
+.externalLinks {
+    padding: 5px;
+}
+.icons{
+    height: 15px;
+    width:15px;
+}
+.college {
+    color: red;
+    font-weight: bold;
+}
+.footer> .college > a {
+    color: red;
+    font-weight: bold;
+
+}
